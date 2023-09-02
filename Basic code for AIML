@@ -1,0 +1,20 @@
+      <?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <!-- Define a category for a simple greeting -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hi there! How can I help you today?</template>
+  </category>
+
+  <!-- Define a category for responding to a common question -->
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>My name is ChatBot. Nice to meet you!</template>
+  </category>
+
+  <!-- Define a category for a generic response -->
+  <category>
+    <pattern>*</pattern>
+    <template>Sorry, I don't understand. Can you please rephrase your question?</template>
+  </category>
+</aiml>
